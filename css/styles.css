@@ -1,0 +1,39 @@
+body
+{
+    background-image: url("../images/backgrounds/bg-bluegblackradient.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-width: 400px;
+}
+
+body, html
+{
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+#logo
+{
+    /*max-width: 100%;
+    height: auto;*/
+}
+
+.game_img
+{
+    width:100%; 
+    max-width: 960px;"
+}
+
+.game_img:hover
+{
+    border: 2px solid lightblue;
+}
+
+footer
+{
+    /*position: absolute;
+    bottom: 0;
+    width: 100%;*/
+}

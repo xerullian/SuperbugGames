@@ -1,0 +1,34 @@
+body
+{
+    background-image: url("../images/backgrounds/SciFi_BG_Nesia.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Barlow", "Montserrat", sans-serif;}
+
+body,h1,h2,h3,h4,h5,h6,p,ol,ul{color: white;}
+h1 {color: #13b6ec; font-weight: 600;}
+h2:not(.chapter_links) {color: #3ca1c3;}
+h3,h4:not(.tutorial_button_text),h5,h6 {color: #a6a6a6;}
+.chapter_links{color: white;}
+
+ol li li h5 {color: rgb(3, 140, 252); text-decoration: underline;}
+ol li li li{ color: rgb(129, 197, 254); }
+
+p, a { font-size: 110%; line-height: 1.5rem; }
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #111;}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px;}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0;}
+
+footer
+{
+    bottom: 0;
+    width: 100%;
+}
